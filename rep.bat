@@ -1,0 +1,1 @@
+newman run BillingOrderAPI.postman_collection.json -e BillingOrder.postman_environment.json -r cli,html,junit --reporter-html-template htmlrep.hbs --reporter-html-export report.html --reporter-junit-export newman.xml
