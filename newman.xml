@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Billing Order API" tests="29" time="0.299">
+  <testsuite name="practice / Post" id="70e1a9c0-a5bd-41df-bf68-4164da76dacf" timestamp="2020-04-21T09:38:34.634Z" tests="3" failures="0" errors="0" time="0.055">
+    <testcase name="data = ajit" time="0.055" classname="BillingOrderApi"/>
+    <testcase name="Body is correct" time="0.055" classname="BillingOrderApi"/>
+    <testcase name="Your test name" time="0.055" classname="BillingOrderApi"/>
+  </testsuite>
+  <testsuite name="practice / GetById" id="63788c87-e018-4756-b460-c7f5b4182a39" timestamp="2020-04-21T09:38:34.634Z" tests="0" failures="0" errors="0" time="0.008"/>
+  <testsuite name="practice / Put" id="b123cb59-c3c7-488a-9591-523bf1019d48" timestamp="2020-04-21T09:38:34.634Z" tests="0" failures="0" errors="0" time="0.018"/>
+  <testsuite name="practice / Delete" id="eef5c12e-c5c9-4403-b1ad-8237eea74d3d" timestamp="2020-04-21T09:38:34.634Z" tests="0" failures="0" errors="0" time="0.009"/>
+  <testsuite name="1 - Get Post Put Delete  / GetAll" id="f9383c1c-5110-4be6-82a4-72df2f39d7d6" timestamp="2020-04-21T09:38:34.634Z" tests="0" failures="0" errors="0" time="0.008"/>
+  <testsuite name="1 - Get Post Put Delete  / Post" id="be727394-b2b1-483b-adf9-67c9f9d209c3" timestamp="2020-04-21T09:38:34.634Z" tests="0" failures="0" errors="0" time="0.007"/>
+  <testsuite name="1 - Get Post Put Delete  / Delete" id="0531c332-5fbe-4eae-8bc6-13590ff5a173" timestamp="2020-04-21T09:38:34.634Z" tests="0" failures="0" errors="0" time="0.029"/>
+  <testsuite name="1 - Get Post Put Delete  / Put" id="34d675b3-298f-43d6-bd51-635551a899ca" timestamp="2020-04-21T09:38:34.634Z" tests="0" failures="0" errors="0" time="0.012"/>
+  <testsuite name="2- Chaining / Post" id="7a671273-155e-4994-b3f1-f17e3d516db4" timestamp="2020-04-21T09:38:34.634Z" tests="0" failures="0" errors="0" time="0.012"/>
+  <testsuite name="2- Chaining / GetById" id="6a19c633-c0b3-48fb-b046-82a8dda2dd7c" timestamp="2020-04-21T09:38:34.634Z" tests="0" failures="0" errors="0" time="0.006"/>
+  <testsuite name="2- Chaining / Put" id="7ff1a132-9d63-4c38-94a8-195e811f2302" timestamp="2020-04-21T09:38:34.634Z" tests="0" failures="0" errors="0" time="0.009"/>
+  <testsuite name="2- Chaining / Delete" id="6de499df-10b3-4fe6-af04-de3ccfbafeaf" timestamp="2020-04-21T09:38:34.634Z" tests="0" failures="0" errors="0" time="0.004"/>
+  <testsuite name="3- Data Validation / Post" id="d9f1a0da-8302-4ed4-b0a7-71cdd8337586" timestamp="2020-04-21T09:38:34.634Z" tests="4" failures="0" errors="0" time="0.007">
+    <testcase name="Status code is 200" time="0.007" classname="BillingOrderApi"/>
+    <testcase name="Successful POST request" time="0.007" classname="BillingOrderApi"/>
+    <testcase name="Response time is less than 200ms" time="0.007" classname="BillingOrderApi"/>
+    <testcase name="Body content is correct" time="0.007" classname="BillingOrderApi"/>
+  </testsuite>
+  <testsuite name="3- Data Validation / GetById" id="1c2cbcee-6d7a-448a-9dba-f47d5daf8c4c" timestamp="2020-04-21T09:38:34.634Z" tests="0" failures="0" errors="0" time="0.009"/>
+  <testsuite name="3- Data Validation / Put" id="ed907ef7-9ab7-461e-bd51-bbf10c0acb09" timestamp="2020-04-21T09:38:34.634Z" tests="1" failures="0" errors="0" time="0.006">
+    <testcase name="validate item number" time="0.006" classname="BillingOrderApi"/>
+  </testsuite>
+  <testsuite name="3- Data Validation / Delete" id="edfd92c5-80fa-4fa3-b7c9-7de317020168" timestamp="2020-04-21T09:38:34.634Z" tests="0" failures="0" errors="0" time="0.005"/>
+  <testsuite name="4- Test Case / Create / Post" id="0764dfdf-b922-42e5-9fa5-3e4fa6d18c29" timestamp="2020-04-21T09:38:34.634Z" tests="4" failures="0" errors="0" time="0.010">
+    <testcase name="Status code is 200" time="0.010" classname="BillingOrderApi"/>
+    <testcase name="Successful POST request" time="0.010" classname="BillingOrderApi"/>
+    <testcase name="Response time is less than 200ms" time="0.010" classname="BillingOrderApi"/>
+    <testcase name="Body content is correct" time="0.010" classname="BillingOrderApi"/>
+  </testsuite>
+  <testsuite name="4- Test Case / Create / GetById" id="a8e441a4-ddfc-4050-b86a-df431106e669" timestamp="2020-04-21T09:38:34.634Z" tests="5" failures="0" errors="0" time="0.005">
+    <testcase name="Status code is 200" time="0.005" classname="BillingOrderApi"/>
+    <testcase name="Successful POST request" time="0.005" classname="BillingOrderApi"/>
+    <testcase name="Response time is less than 200ms" time="0.005" classname="BillingOrderApi"/>
+    <testcase name="Body content is correct" time="0.005" classname="BillingOrderApi"/>
+    <testcase name="Name validation" time="0.005" classname="BillingOrderApi"/>
+  </testsuite>
+  <testsuite name="4- Test Case / Read All Records / GetAllRecords" id="6591c719-990d-44f7-afb2-f35ee9de8dbe" timestamp="2020-04-21T09:38:34.634Z" tests="2" failures="0" errors="0" time="0.007">
+    <testcase name="Status code is 200" time="0.007" classname="BillingOrderApi"/>
+    <testcase name="data = 58" time="0.007" classname="BillingOrderApi"/>
+  </testsuite>
+  <testsuite name="4- Test Case / Read All Records / Post" id="299af6f4-b215-4c36-9c08-0efbf8379e18" timestamp="2020-04-21T09:38:34.634Z" tests="4" failures="0" errors="0" time="0.015">
+    <testcase name="Status code is 200" time="0.015" classname="BillingOrderApi"/>
+    <testcase name="Successful POST request" time="0.015" classname="BillingOrderApi"/>
+    <testcase name="Response time is less than 200ms" time="0.015" classname="BillingOrderApi"/>
+    <testcase name="Body content is correct" time="0.015" classname="BillingOrderApi"/>
+  </testsuite>
+  <testsuite name="4- Test Case / Read All Records / GetAllRecords" id="59bd2598-fd6c-4ef7-8a40-6220395adf18" timestamp="2020-04-21T09:38:34.634Z" tests="1" failures="0" errors="0" time="0.007">
+    <testcase name="validating data length" time="0.007" classname="BillingOrderApi"/>
+  </testsuite>
+  <testsuite name="4- Test Case / Update / Post" id="f3ed2f44-eb9c-4fac-a56a-051a273253fa" timestamp="2020-04-21T09:38:34.634Z" tests="4" failures="0" errors="0" time="0.006">
+    <testcase name="Status code is 200" time="0.006" classname="BillingOrderApi"/>
+    <testcase name="Successful POST request" time="0.006" classname="BillingOrderApi"/>
+    <testcase name="Response time is less than 200ms" time="0.006" classname="BillingOrderApi"/>
+    <testcase name="Body content is correct" time="0.006" classname="BillingOrderApi"/>
+  </testsuite>
+  <testsuite name="4- Test Case / Update / GetById" id="1a2c2f19-e6c7-4307-a3a9-227da23b6f84" timestamp="2020-04-21T09:38:34.634Z" tests="0" failures="0" errors="0" time="0.004"/>
+  <testsuite name="4- Test Case / Update / Put" id="94ef0c31-1aa4-4413-a163-514a224ba6cb" timestamp="2020-04-21T09:38:34.634Z" tests="1" failures="0" errors="0" time="0.012">
+    <testcase name="validating updated item number" time="0.012" classname="BillingOrderApi"/>
+  </testsuite>
+  <testsuite name="4- Test Case / Update / GetById" id="bd7a5bf1-29bf-42c5-ab41-0d4c3aa03313" timestamp="2020-04-21T09:38:34.634Z" tests="0" failures="0" errors="0" time="0.004"/>
+  <testsuite name="4- Test Case / Delete / Post" id="a7523321-8c8b-473d-891a-f71af645bad9" timestamp="2020-04-21T09:38:34.634Z" tests="4" failures="0" errors="0" time="0.004">
+    <testcase name="Status code is 200" time="0.004" classname="BillingOrderApi"/>
+    <testcase name="Successful POST request" time="0.004" classname="BillingOrderApi"/>
+    <testcase name="Response time is less than 200ms" time="0.004" classname="BillingOrderApi"/>
+    <testcase name="Body content is correct" time="0.004" classname="BillingOrderApi"/>
+  </testsuite>
+  <testsuite name="4- Test Case / Delete / GetById " id="ab5a1857-25b6-4530-89f7-5ef76acd142e" timestamp="2020-04-21T09:38:34.634Z" tests="1" failures="0" errors="0" time="0.008">
+    <testcase name="Status code is 200" time="0.008" classname="BillingOrderApi"/>
+  </testsuite>
+  <testsuite name="4- Test Case / Delete / Delete" id="12910dad-269f-471c-91f7-1c993bc80129" timestamp="2020-04-21T09:38:34.634Z" tests="1" failures="0" errors="0" time="0.004">
+    <testcase name="Status code is 200" time="0.004" classname="BillingOrderApi"/>
+  </testsuite>
+  <testsuite name="4- Test Case / Delete / GetById" id="e359e143-978c-4393-9556-708208656e5a" timestamp="2020-04-21T09:38:34.634Z" tests="2" failures="0" errors="0" time="0.009">
+    <testcase name="Status code is 200" time="0.009" classname="BillingOrderApi"/>
+    <testcase name="no data exists" time="0.009" classname="BillingOrderApi"/>
+  </testsuite>
+</testsuites>
