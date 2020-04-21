@@ -6,7 +6,8 @@
     "test": "tests"
   },
   "scripts": {
-    "api-tests": "newman run api_tests/BillingOrderAPI.postman_collection.json -e api_tests/BillingOrder.postman_environment.json -r cli,html,junit --reporter-html-template api_tests/templates/htmlreqres.hbs --reporter-html-export report.html --reporter-junit-export newman.xml"
+    "api-tests": "newman run api_tests/BillingOrderAPI.postman_collection.json -e api_tests/BillingOrder.postman_environment.json -r cli,html,junit --reporter-html-template api_tests/templates/htmlreqres.hbs --reporter-html-export report.html --reporter-junit-export newman.xml",
+	"test":"newman run API_tests/BillingOrderAPI.postman_collection.json -e API_tests/BillingOrder.postman_environment.json"
   },
   "author": "Ajit Sharma",
   "dependencies": {
