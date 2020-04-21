@@ -14,7 +14,7 @@
 	"simpleDev" : "newman run BillingOrderAPI.postman_collection.json -e BillingOrder.postman_environment_Dev.json",
 	"csvExampleDev" : "newman run BillingOrderAPI.postman_collection.json -e BillingOrder.postman_environment_Dev.json -d data.csv", 
 	"reportingDev" : "newman run BillingOrderAPI.postman_collection.json -e BillingOrder.postman_environment_Dev.json -r html",
-	"ReportXML1":"newman run BillingOrderAPI.postman_collection.json -e BillingOrder.postman_environment.json -r cli,html,junit --reporter-html-template htmlrep.hbs --reporter-html-export report.html --reporter-junit-export newman.xml",
+	"ReportAll":"newman run BillingOrderAPI.postman_collection.json -e BillingOrder.postman_environment.json -r cli,html,junit --reporter-html-template htmlrep.hbs --reporter-html-export html/report.html --reporter-junit-export newman.xml",
 	"ReportXML":"newman run BillingOrderAPI.postman_collection.json -e BillingOrder.postman_environment.json -r cli,junit --reporter-junit-export newman.xml  --insecure"  
   },
   "author": "Ajit Sharma",
