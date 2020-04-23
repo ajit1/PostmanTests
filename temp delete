@@ -1,1 +1,12 @@
 testing 
+      private void HighlightElement(IWebElement Element, int Duration = 2)
+        {
+            string originalStyle = Element.GetAttribute("style");
+            string tempStyle = "border: 5px solid red; border-style: dashed;";
+
+            JavaScriptDriver.ExecuteScript("arguments[0].setAttribute(arguments[1], arguments[2])",
+                                   Element, "style", tempStyle);
+            Thread.Sleep(Duration * 1000);
+            JavaScriptDriver.ExecuteScript("arguments[0].setAttribute(arguments[1], arguments[2])",
+                                   Element, "style", originalStyle);
+        }
