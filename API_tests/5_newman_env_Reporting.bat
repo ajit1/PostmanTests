@@ -1,1 +1,1 @@
-newman run BillingOrderAPI.postman_collection.json -e BillingOrder.postman_environment.json -r html
+newman run collection.json -e environment.json -r html
